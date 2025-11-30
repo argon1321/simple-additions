@@ -9,7 +9,7 @@
   lead/50
   copper/75
   ]
-  "category": "crafting",
+  "category": "power",
   "craftTime": 120,
   "itemCapacity": 60
   "outputLiquids": ["steam/0.4"]
@@ -22,7 +22,9 @@
         "type": "DrawMulti",
         "drawers": [
         { "type": "DrawDefault" },
-        { "type": "DrawRegion", "suffix": "-spinner", "spinSprite": true, "rotateSpeed": -1}
+        { "type": "DrawRegion", "suffix": "-spinner", "spinSprite": true, "rotateSpeed": -3}
+        { "type": "DrawRegion", "suffix": "-top", "spinSprite": false, "rotateSpeed": 0}
+
         ]
     }
 powerProduction: 3
