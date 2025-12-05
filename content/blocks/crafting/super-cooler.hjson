@@ -1,0 +1,30 @@
+{
+  "type": "GenericCrafter",
+  "name": "Super cooler",
+  "description": "Using titanium, cryofluid, and steam, supercools the steam into an excellent coolant for turrets.",
+  "health": 720,
+  "size": 2,
+  "updateEffect": smeltsmoke
+  "requirements": [
+  titanium/50
+  silicon/25
+  lead/75
+  copper/100
+  ]
+  "category": "crafting",
+  "craftTime": 120,
+  "itemCapacity": 10
+  "outputLiquids": ["steamfluid/0.4"]
+"consumes": {
+  "liquids": ["cryofluid/0.2", "steam/0.2"],
+  "items": ["titanium/2"]
+}
+  "research": burner-boiler
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+        { "type": "DrawDefault" },
+        { "type": "DrawFlame"}
+        ]
+    }
+}
