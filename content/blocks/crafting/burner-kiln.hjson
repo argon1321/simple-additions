@@ -1,0 +1,32 @@
+{
+  "type": "GenericCrafter",
+  "name": "Burner Kiln",
+  "description": "Makes metaglass. The product has to be smelted for longer due to the poor construction materials. It is recommended to upgrade to a proper kiln  as soon as possible",
+  "health": 720,
+  "size": 2,
+  "updateEffect": smeltsmoke
+  "requirements": [
+  lead/50
+  copper/75
+  ]
+  "category": "crafting",
+  "craftTime": 120,
+  "itemCapacity": 10
+  "outputItem": { "item": "metaglass", "amount": 2 },
+"consumes": {
+  power: 0.3
+  
+  items: [
+   sand/1
+   lead/1
+ ]
+}
+  "research": steam-generator
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+        { "type": "DrawDefault" },
+        { "type": "DrawFlame"}
+        ]
+    }
+}

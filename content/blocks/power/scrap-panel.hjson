@@ -1,0 +1,16 @@
+{
+  "type": "SolarGenerator",
+  "name": "Scrap panel",
+  "description": "Basic solar panel. Very bad, however used in areas with a coal or sand shortage.",
+  "health": 20,
+  "size": 1,
+  "updateEffect": smeltsmoke
+  "requirements": [
+  lead/50
+  scrap/25
+  ]
+  "category": "power",
+  "research": coal-extractor
+powerProduction: 0.03
+
+}

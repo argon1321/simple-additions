@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
-  "name": "Coal Extractor",
-  "description": "Deep bore drill, extracting coal. Requires significant power. Used in areas which coal cannot be obtained.",
+  "name": "Scrap Extractor",
+  "description": "Drilling scrap from the remnants of previous factories. Apperently serpulo had previous factories everywhere.",
   "size": 2,
   "health": 360,
   "hasPower": true,
@@ -13,10 +13,10 @@
   "craftEffect": "smeltsmoke",
 
   "consumes": {
-    "power": 3.0
+    "power": 2.0
   },
 
-  "outputItem": "coal/2",
+  "outputItem": "scrap/2",
 
   "requirements": [
     "copper/80",
