@@ -1,10 +1,9 @@
 name: Steamfluid
 description: State of steam that is super-cooled beyond it's condensation point. Very cold. Explosive if disturbed too much.
-heatCapacity: 0.5
+heatCapacity: 2
 explosiveness: 2
-temperature: -0.5
+temperature: 0
 viscocity: 0.2
-gas: true
 color: 69CFD5
 gasColor: A8EAEE
 flammability: 0

@@ -1,0 +1,40 @@
+{
+  "type": "Separator",
+  "name": "Steam separator.",
+  "description": "Seperates scrap using steam, this method does not compress coal and gives it raw.",
+  "health": 720,
+  "size": 2,
+  "updateEffect": smeltsmoke
+  "requirements": [
+  lead/50
+  copper/75
+  ]
+  "category": "crafting",
+  "craftTime": 120,
+  "itemCapacity": 10
+  "results":[
+    coal/2
+    copper/3
+    lead/4
+    titanium/1
+  ]
+"consumes": {
+  liquids: [
+    steam/0.1
+  ]
+  items: [
+   scrap/1
+ ]
+}
+  "research": separator
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+          
+        { "type": "DrawRegion", "suffix": "-bottom", "spinSprite": false, "rotateSpeed": 0}
+        { "type": "DrawDefault" },
+        { "type": "DrawRegion", "suffix": "-spinner", "spinSprite": true, "rotateSpeed": -3}
+
+        ]
+    }
+}

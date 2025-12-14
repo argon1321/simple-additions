@@ -14,14 +14,13 @@
   "itemCapacity": 10
   "outputItem": { "item": "metaglass", "amount": 2 },
 "consumes": {
-  power: 0.3
-  
   items: [
    sand/1
    lead/1
+   coal/1
  ]
 }
-  "research": steam-generator
+  "research": kiln
     "drawer": {
         "type": "DrawMulti",
         "drawers": [
