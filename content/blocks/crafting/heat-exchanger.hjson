@@ -1,0 +1,34 @@
+{
+  "type": "HeatCrafter",
+  "name": "Heat Exchanger",
+  "description": "Boils water using heat from other sources. Useful",
+  "health": 720,
+  "size": 3,
+  "updateEffect": smeltsmoke
+  "requirements": [
+  lead/250
+  silicon/120
+  copper/300
+  titanium/120
+  thorium/50
+  ]
+  "category": "crafting",
+  "craftTime": 60,
+  "itemCapacity": 1200
+  "liquidCapacity": 1200
+  "outputLiquids": ["steam/1.6"]
+  "heatRequirement": 20
+  "overheatScale": 0.5
+  "maxEfficency" : 5
+"consumes": {
+  "liquids": ["water/0.8"]
+}
+  "research": burner-boiler
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+        { "type": "DrawDefault" },
+        { "type": "DrawFlame"}
+        ]
+    }
+}

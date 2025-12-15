@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Burner Boiler",
-  "description": "Boils water using coal. First step into modular power generation.",
+  "description": "Boils water using coal.",
   "health": 720,
   "size": 2,
   "updateEffect": smeltsmoke
