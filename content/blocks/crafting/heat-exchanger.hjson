@@ -15,6 +15,7 @@
   "category": "crafting",
   "craftTime": 60,
   "itemCapacity": 1200
+  "hasLiquids": true
   "liquidCapacity": 1200
   "outputLiquids": ["steam/1.6"]
   "heatRequirement": 20
@@ -27,8 +28,15 @@
     "drawer": {
         "type": "DrawMulti",
         "drawers": [
+        { "type": "DrawRegion"
+          "suffix": "-bottom"},
+        { "type": "DrawLiquidRegion"
+          "drawLiquid": "water"},
+        { "type": "DrawLiquidRegion"
+          "drawLiquid": "steam"},
         { "type": "DrawDefault" },
-        { "type": "DrawFlame"}
+        { "type": "DrawHeatInput" },
+        { "type": "DrawHeatRegion" },
         ]
     }
 }

@@ -1,0 +1,45 @@
+{
+  "type": "GenericCrafter",
+  "name": "Rubber Refinery",
+  "description": "Refines rubber from oil and spore pods.",
+  "health": 720,
+  "size": 4,
+  "updateEffect": smeltsmoke
+  "requirements": [
+  lead/150
+  titanium/50
+  silicon/30
+  copper/250
+  chip/15
+  ]
+  "category": "crafting",
+  "craftTime": 600,
+  "itemCapacity": 60
+  "hasLiquids": true
+  "liquidCapacity": 20
+  "outputItem": { "item": "rubber", "amount": 15 },
+  "consumes": {
+    power: 25,
+    liquids: [
+      oil/.2
+  ]
+    items: [
+    spore-pod/45
+  ]
+  }
+  "research": silicon-smelter
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+        { "type": "DrawRegion"
+          "suffix": "-bottom"}
+        { "type": "DrawLiquidRegion"
+          "drawLiquid": "oil"}
+        { "type": "DrawDefault" },
+        { "type": "DrawCrucibleFlame"
+          "x": -5.8
+          "y": 5.8
+        }
+        ]
+    }
+}

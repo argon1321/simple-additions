@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Silicon Refinery",
-  "description": "Highly efficent refinery of silicon. Requires tons of sand and coal to operate, along with power.",
+  "description": "Highly efficent refinery of silicon. Requires tons of sand to operate, along with power. However, this uses graphite electrodes, and has a long processing time.",
   "health": 720,
   "size": 4,
   "updateEffect": smeltsmoke
@@ -12,14 +12,14 @@
   copper/250
   ]
   "category": "crafting",
-  "craftTime": 120,
-  "itemCapacity": 60
-  "outputItem": { "item": "silicon", "amount": 15 },
+  "craftTime": 1700,
+  "itemCapacity": 600
+  "outputItem": { "item": "silicon", "amount": 175 },
   "consumes": {
     power: 25,
     items: [
-    sand/20
-    coal/10
+    sand/200
+    graphite/20
   ]
   }
   "research": silicon-smelter

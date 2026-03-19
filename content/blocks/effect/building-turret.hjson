@@ -1,0 +1,18 @@
+{
+  "type": "BuildTurret",
+  "name": "Building Turret",
+  "description": "Basic building turret, used instead of polies. Does not consume power due to an inbuilt battery and solar panels.",
+  "health": 60,
+  "size": 1,
+  "buildSpeed": 0.2
+  "updateEffect": smeltsmoke
+  "requirements": [
+  lead/50
+  copper/25
+  silicon/15
+  ]
+  "range": 120
+  "category": "effect",
+  "research": duo
+
+}

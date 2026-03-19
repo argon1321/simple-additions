@@ -1,0 +1,10 @@
+name: Molten Copper
+description: Copper that has been heated to it's melting point. Used in soldering.
+heatCapacity: 1
+explosiveness: 0
+temperature: 1.6
+viscocity: 0.4
+color: F78114
+flammability: 0
+research: water
+coolant: false

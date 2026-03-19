@@ -1,0 +1,30 @@
+{
+  "type": "GenericCrafter",
+  "name": "Melting Crucible",
+  "description": "Melts copper into a liquid form.",
+  "health": 720,
+  "size": 2,
+  "updateEffect": smeltsmoke
+  "requirements": [
+  lead/50
+  silicon/25
+  copper/100
+  ]
+  "category": "crafting",
+  "craftTime": 60,
+  "itemCapacity": 10
+  "outputLiquids": ["molten-copper/0.1"]
+"consumes": {
+  "items": ["copper/1"],
+  "itemFlammable": {},
+  "itemExplode": {}
+}
+  "research": steam-generator
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+        { "type": "DrawDefault" },
+        { "type": "DrawFlame"}
+        ]
+    }
+}
