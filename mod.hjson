@@ -2,7 +2,7 @@ name: "simple-additions"
 displayName: "Simple additions"
 author: argon1321
 description: "A mod adding extra useful stuff, from solving siligone to even more useless stuff, yes, it's that simple. And dumb."
-version: "0.3"
+version: "0.4"
 minGameVersion: "153"
 dependencies: [ ]
 hidden: false
