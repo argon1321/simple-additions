@@ -1,0 +1,49 @@
+{
+  "type": "GenericCrafter",
+  "name": "Cosmic Matter Drill",
+  "description": "Drills the very cosmic plane for the perfect resource",
+  "size": 2,
+  "health": 20,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 20,
+  
+  "craftTime": 1200, 
+  "updateEffect": "pulverize", 
+  "craftEffect": "smeltsmoke",
+
+  "consumes": {
+    "power": 3000.0
+  },
+
+  "outputItem": "cosmic-matter/1",
+
+  "requirements": [
+    "copper/13000",
+    "lead/13000",
+    "titanium/13000",
+    "silicon/13000",
+    "thorium/13000",
+    "rubber/13000",
+    "chip/13000",
+    "plastanium/13000",
+    "graphite/13000",
+    "phase-fabric/13000",
+    "surge-alloy/13000",
+    "scrap/13000",
+    "blast-compound/13000"
+  ],
+
+  "category": "production",
+  "research": "pneumatic-drill"
+  
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+        { "type": "DrawDefault" },
+        { "type": "DrawRegion", "suffix": "-spinner", "spinSprite": true, "rotateSpeed": 4}
+        { "type": "DrawRegion", "suffix": "-top", "spinSprite": false, "rotateSpeed": 0}
+
+        ]
+    }
+}
